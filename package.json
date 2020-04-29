@@ -1,0 +1,26 @@
+{
+  "name": "tp-js",
+  "version": "1.0.0",
+  "description": "Cours de JS du 29/04/20 au ...",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gravity-zero/TP-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gravity-zero/TP-JS/issues"
+  },
+  "homepage": "https://github.com/gravity-zero/TP-JS#readme",
+  "keywords": [],
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
