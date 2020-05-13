@@ -8,15 +8,33 @@
     <title>La pêche exotique</title>
 </head>
 <body>
-    <header class="">
-        <nav class=""></nav>
-        <a href="index.html" class="imageHeader"><img src="assets/imgs/header-tuna.jpg"></a>
-        <nav class=""></nav>
+    <header class="header">
+        <div class="container"></div>
+        <nav class="header-left"></nav>
+        <a href="index.html" ><img class="imageHeader" src="assets/imgs/header-tuna.jpg"></a>
+        <nav class="header-right"></nav>
     </header>
-    <main class="">
+    <main class="main">
+        <article class="main-content">
+            <div class="main-content main-content__body--text">
+                <form>
+                    <div class="main-content main-content__body--radio">
+                        <input type="radio" id="release" name="fishChoice" value="release"
+                               checked>
+                        <label for="release">Relâcher</label>
+                      </div>
+                      
+                      <div>
+                        <input type="radio" id="cook" name="fishChoice" value="cook">
+                        <label for="cook">Cuisiner</label>
+                      </div>
 
+                      <button id="lifeOption" type="button">Valider le choix</button>
+                </form>
+            </div>
+        </article>
     </main>
-    <footer class="">
+    <footer class="footer">
         
 
     </footer>
